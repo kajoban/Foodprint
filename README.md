@@ -3,11 +3,12 @@
 ## Setup
 
 0. Ensure you have `git`, `node`, `npm`, and `expo-cli` installed
-1. `git clone https://github.com/kajoban/STREAMhacks2020.git`
-2. In same terminal, `cd client`
-3. Start up your emulator (using Android studio)
+1. Start up your emulator (using Android studio)
+2. `git clone https://github.com/kajoban/STREAMhacks2020.git`
+3. `cd client`
+4. `npm install` to install dependencies 
 4. `expo start` (Metro Bundler should open on `localhost:19001`)
-5. In same terminal, press `a` to open app on Android emulator
+5. `a` to open app on Android emulator (App should open on Emulator)
 6. App will hot reload on code changes
 
 ## Branching
