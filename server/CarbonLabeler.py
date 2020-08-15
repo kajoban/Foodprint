@@ -21,15 +21,15 @@ class SmartLabels(object):
         # add some NLP for categorization
     
     def __iter__(self):
-        return self
+        return iter(self.smartLabels)
     
-    def __next__(self):
-        self.index += 1
-        if self.index >= len(self.smartLabels):
-            self.index = -1
-            raise StopIteration
-        else:
-            return self.smartLabels[self.index]
+    # def __next__(self):
+    #     self.index += 1
+    #     if self.index >= len(self.smartLabels):
+    #         self.index = -1
+    #         raise StopIteration
+    #     else:
+    #         return self.smartLabels[self.index]
     def __str__(self):
         return str(self.smartLabels)
 
@@ -49,22 +49,22 @@ class CarbonLabeler():
 
         self.footprints=[]
         self.smartLabels = SmartLabels(labels)
-        print(self.smartLabels)
-
 
     def getFootprints(self):
 
         footprints = []
         recognized_footprints = db.collection(u'carbon-footprints')
+
         for label in self.smartLabels:
+
             print('SEARCHING FOR', label)
             item_ref = recognized_footprints.document(label)
             item = item_ref.get()
             if item.exists:
-                print(f'Document data: {item.to_dict()}')
+                print(item.to_dict())
                 self.footprints.append(item.to_dict())
             else:
-                print(u'Not recognized, sorry!')
+                print('Not recognized, sorry!')
 
         return self.footprints
 
