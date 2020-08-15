@@ -16,7 +16,7 @@ class FoodLabel(object):
 
         self.labels = []
         for obj in localized_object_annotations:
-            if obj.score >= 0.5:
+            if obj.score >= 0.7:
                 self.labels.append(obj.name)
     def getLabels(self):
         return self.labels
