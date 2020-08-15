@@ -31,7 +31,6 @@ export default function App() {
       <View
         style={{
           flex: 1,
-          maxHeight: "100%",
         }}
       >
         <Camera ref={ref} style={{ flex: 1 }} type={direction}>
@@ -44,34 +43,21 @@ export default function App() {
           >
             <TouchableOpacity
               style={{
-                flex: 0.1,
-                alignSelf: "flex-end",
-                alignItems: "center",
-              }}
-              onPress={() => {
-                setDirection(
-                  direction === Camera.Constants.Type.back
-                    ? Camera.Constants.Type.front
-                    : Camera.Constants.Type.back
-                );
-              }}
-            >
-              <Text style={{ fontSize: 18, marginBottom: 10, color: "white" }}>
-                {" "}
-                Flip{" "}
-              </Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={{
                 flex: 1,
                 alignSelf: "flex-end",
                 alignItems: "center",
               }}
               onPress={takePhoto}
             >
-              <Text style={{ fontSize: 18, marginBottom: 10, color: "white" }}>
-                Take Photo
-              </Text>
+              <View
+                style={{
+                  height: 70,
+                  width: 70,
+                  borderRadius: 1000,
+                  backgroundColor: "#fff",
+                  margin: 30,
+                }}
+              ></View>
             </TouchableOpacity>
           </View>
         </Camera>
