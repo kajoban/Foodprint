@@ -18,7 +18,7 @@ const App = () => {
       <View style={styles.barView}>
         <Text style={styles.amount}>Amount:</Text>
         <Text style={styles.resultHead}>
-           Total Carbon Footprint{"\n"}(carbon dioxide equivalents):</Text>
+           Total carbon dioxide emitted{"\n"}(kg):</Text>
       </View>
       <View style={styles.barView}>
         <TextInput
