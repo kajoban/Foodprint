@@ -1,0 +1,33 @@
+Beef (beef herd)	60 kgCO2e
+Lamb & Mutton	24 kgCO2e
+Mutton 24 kgCO2e
+Cheese	21 kgCO2e
+Beef (dairy herd)	21 kgCO2e
+Chocolate	19 kgCO2e
+Coffee	17 kgCO2e
+Prawns (farmed)	12 kgCO2e
+Palm Oil	8 kgCO2e
+Pig Meat	7 kgCO2e
+Poultry Meat	6 kgCO2e
+Olive Oil	6 kgCO2e
+Fish (farmed)	5 kgCO2e
+Fish 5 kgCO2e
+Eggs	4.5 kgCO2e
+Rice	4 kgCO2e
+Fish (wild catch)	3 kgCO2e
+Milk	3 kgCO2e
+Cane Sugar	3 kgCO2e
+Sugar	3 kgCO2e
+Groundnuts	2.5 kgCO2e
+Wheat 1.4 kgCO2e
+Rye 1.4 kgCO2e
+Tomatoes	1.4 kgCO2e
+Maize (Corn)	1.0 kgCO2e
+Cassava	1.0 kgCO2e
+Soymilk	0.9 kgCO2e
+Peas	0.9 kgCO2e
+Bananas	0.7 kgCO2e
+Root Vegetables	0.4 kgCO2e
+Apples	0.4 kgCO2e
+Citrus Fruits	0.3 kgCO2e
+Nuts	0.3 kgCO2e

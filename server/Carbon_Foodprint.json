@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "carbon-foodprint",
+  "private_key_id": "02a2c3ffbac22674aed5fb92429be2b1f338dfbe",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDjsOYLHmZapZMN\nqSEzAUc3N4S9wLtImTHzTpGLz3qvfwWSTevhDPWfP7yvXhrj/c6sYrgNiQERXCBt\n/LfYbYNAGcPzdE5E+kXgZXGce79W1ds39GFY6gUx1IkvMzIEceq+I5BEYt01/9QY\n+uJzShhD/XtVnQGUGWz2buXy3pFgEDy4RNKoN9+eAuydBqzMvKvatAr4o+JgMpsi\nJ5nEFt3e1RenfZHdj1kiztuYpo7399PrABhXan4kfrbqhL2Y1PfSnqKtNGDAimBD\n9DtPuYvDzdDswmErm0rxXiWt1oIZPMU0+ltGhHymNQIiwLi3Mne8GzWvxAzXVy/V\n8dlbTR2LAgMBAAECggEAUxDFTAciJi3DkTdDkl0EAyPw/Fzktl6VN4NRW+Ush/va\nJ37f7/GPZjKVfpDhVI3SqVc2eFGkHxYyCo4o7/8749XCg/3JVCbN+UhpA0KuElrg\np/Ay14JAtOYpyhtuQurgTc+hoSFEPKABW7+jf5Xndl5ycVBfNA12kAzzPQBvntB9\nfTu+sKT48TPds+tM78sT20EvPD7cqVd7VEyQVZ8pkce9w9KFyS9vkawPLVs4s+EN\nX6XphWOKXKJ31K9Kv5ieYqfeSM9u2fOtQnTqyjdLMAt5syfSTt6LM3ibqXrNTrhW\nVnuFGRiFJr//IWSt4OdE0n+uSJ49k8rk3S4tA3fqOQKBgQDylluF0On+6Qj4samE\nHSutTWp2bA7xNMPQjc0Th6Gdv1xB6cuJtEPqQqFlRKsWQfJk8oiXZr+ffUvc4Gu5\nA4BzjufCfrAoCNPRt/G82UypQKptw1eWy7+CG/LOmLd+091ij75pOXFi8rtkEidW\nuzR9/5soDa/DDABRPHUwasWZ1QKBgQDwR7Hb19UdbQwJ1ClF56leKgqVjRAF6E6x\nyKjlDsaG+/ag9XdsrGyV3tJdzdDmGGm0TaaXqF8Qofxr9NetcuRDCyqkr1PyNMdt\n4KuR3NxgD+DNNeKyO52z+cs+Y/8g+mH50sCUtZF3AxJAM2ZZWRnT/CkEJ2wCww69\nBVHDuOUp3wKBgQCNEL47/JZ1s1GSPM3Uk5n4dxI3tvKhdQuBVVQxzSdAMi0V7zx6\n4Sa1LPXpi5rpoIOyDA8963P27MeWs7Iwrkad7DX9Nep9/VQfmhWquboImiABIBzp\nBaZhpJr3ZHsf91e/ntMdIVg8L+akdKIHn2kQ8/hnvD2+8FWm579F3nD12QKBgCei\n/BETAqHvCixY5lIUzBivgL143qrKzqh/PHVEwbUkvWOB+qhfrS3v6u30dMBwSIeo\nw5GDAeOhhR1d73I6YLM6lVdDYOq0kC1tAYB3WZczJ1dSy0mxketNipyJLF4JT75B\naOlfJlbml80lbX3Rt/QDRdTcl/HAsZ620O0jhBIrAoGBAKVDNXNa7qi4C/lyNWoX\nD78lMjaag3ymn/ONIQtfwZyNYlzVZilwShnpHksxoKENDd3Yf92nhJySx84k2kbC\nMy744/HaKqg3/VGIVqbhZh7njDT/FIlZPRShX7jsL95VQoG7j32bQ2zbMFsjjx02\nSTD/Ay7sKB1tUh99tsttwZCF\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-4exey@carbon-foodprint.iam.gserviceaccount.com",
+  "client_id": "101608912993541652898",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-4exey%40carbon-foodprint.iam.gserviceaccount.com"
+}
