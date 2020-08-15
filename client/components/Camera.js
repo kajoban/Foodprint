@@ -17,8 +17,25 @@ export default function App() {
   }, []);
 
   const takePhoto = async () => {
-    const photo = await ref.current.takePictureAsync();
-    console.log(photo);
+    const snap = await ref.current.takePictureAsync();
+    console.log(snap);
+    const body = new FormData();
+    body.append("file", "@" + snap.uri);
+
+    fetch("http://192.168.2.21:5000/", {
+      body,
+      method: "POST",
+      headers: {
+        "Content-Type": "multipart/form-data",
+      },
+    })
+      .then((response) => response.text())
+      .then((json) => {
+        console.log(json);
+      })
+      .catch((error) => {
+        alert(error);
+      });
     console.log("snapped!");
   };
 

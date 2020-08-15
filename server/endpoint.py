@@ -1,4 +1,5 @@
-import os, io
+import os
+import io
 from flask import Flask, flash, request, redirect, url_for, jsonify
 from werkzeug.utils import secure_filename
 from flask import send_from_directory
@@ -10,13 +11,15 @@ ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
 
 app = Flask(__name__)
+app.secret_key = 'some_secret_key'
 
 
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
-@app.route('/', methods=['GET','POST'])
+
+@app.route('/', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         # check if the post request has the file part
@@ -33,12 +36,13 @@ def upload_file():
         if file and allowed_file(file.filename):
             img = file.read()
             # convert to bytes format
-            #file.save('tmp.jpg')
+            # file.save('tmp.jpg')
             labels = FoodLabel(img).getLabels()
             footprints = CarbonLabeler(labels).getFootprints()
             print(type(footprints))
             return jsonify(footprints)
     return "Are you sure you submitted a post request?"
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')

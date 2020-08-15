@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { Container, Content } from "native-base";
 import Swiper from "react-native-swiper";
@@ -6,6 +6,7 @@ import Camera from "./components/Camera";
 import History from "./components/History";
 
 export default function App() {
+  const [history, setHistory] = useState([]);
   return (
     <Container>
       <Content>
