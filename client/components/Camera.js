@@ -18,7 +18,7 @@ export default function App() {
 
   const takePhoto = async () => {
     const photo = await ref.current.takePictureAsync();
-    console.debug(photo);
+    console.log(photo);
     console.log("snapped!");
   };
 
