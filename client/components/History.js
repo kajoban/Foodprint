@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import { StyleSheet, Text, View, FlatList } from 'react-native';
+import React, { useState } from "react";
+import { StyleSheet, Text, View, FlatList } from "react-native";
 import HistoryHeader from "./HistoryHeader";
 import HistoryListItem from "./HistoryListItem";
 
@@ -13,21 +13,20 @@ const History = () => {
   const fullDate = month + "-" + day + "-" + year;
 
   const [items, setItems] = useState([
-    {id: 1, text: "Apple", footprint: 478, date: fullDate},
-    {id: 2, text: "Banana", footprint: 267, date: fullDate},
-    {id: 3, text: "Tomato", footprint: 365, date: fullDate},
-    {id: 4, text: "Chicken", footprint: 675, date: fullDate},
-  ])
+    { id: 1, text: "Apple", footprint: "478", date: fullDate },
+    { id: 2, text: "Banana", footprint: "267", date: fullDate },
+    { id: 3, text: "Tomato", footprint: "365", date: fullDate },
+    { id: 4, text: "Chicken", footprint: "675", date: fullDate },
+  ]);
   // end of placeholder code
 
   return (
     <View style={styles.container}>
-      <HistoryHeader title="History"/>
+      <HistoryHeader title="History" />
       <FlatList
         data={items}
-        renderItem={({item}) => (
-          <HistoryListItem item={item} />
-        )}
+        renderItem={({ item }) => <HistoryListItem item={item} />}
+        keyExtractor={(item, index) => `list-item-${index}`}
       />
     </View>
   );

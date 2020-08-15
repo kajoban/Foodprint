@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { Container, Content } from "native-base";
 import Swiper from "react-native-swiper";
 import Camera from "./components/Camera";
+import History from "./components/History";
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
             <Camera />
           </View>
           <View style={styles.slideDefault}>
-            <Text style={styles.text}>Table</Text>
+            <History />
           </View>
         </Swiper>
       </Content>
