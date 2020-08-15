@@ -5,7 +5,10 @@ import pandas as pd
 
 class FoodLabel(object):
         
-    def __init__(self, image:bytes):
+    '''
+        Pass image via HTTP request as bytes
+    '''
+    def __init__(self, image):
         os.environ['GOOGLE_APPLICATION_CREDENTIALS'] =r'Carbon_Foodprint.json'
 
         client = vision.ImageAnnotatorClient()
