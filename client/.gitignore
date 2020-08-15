@@ -1,5 +1,5 @@
 node_modules/**/*
-config/environment.js
+server/Carbon_Foodprint.json
 .expo/*
 npm-debug.*
 *.jks

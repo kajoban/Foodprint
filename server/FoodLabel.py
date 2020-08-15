@@ -5,7 +5,10 @@ import pandas as pd
 
 class FoodLabel(object):
         
-    def __init__(self, image:bytes):
+    '''
+        Pass image via HTTP request as bytes
+    '''
+    def __init__(self, image):
         os.environ['GOOGLE_APPLICATION_CREDENTIALS'] =r'Carbon_Foodprint.json'
 
         client = vision.ImageAnnotatorClient()
@@ -16,7 +19,7 @@ class FoodLabel(object):
 
         self.labels = []
         for obj in localized_object_annotations:
-            if obj.score >= 0.5:
+            if obj.score >= 0.7:
                 self.labels.append(obj.name)
     def getLabels(self):
         return self.labels

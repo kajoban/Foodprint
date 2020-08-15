@@ -1,33 +1,36 @@
-Beef (beef herd)	60 kgCO2e
-Lamb & Mutton	24 kgCO2e
-Mutton 24 kgCO2e
-Cheese	21 kgCO2e
-Beef (dairy herd)	21 kgCO2e
-Chocolate	19 kgCO2e
-Coffee	17 kgCO2e
-Prawns (farmed)	12 kgCO2e
-Palm Oil	8 kgCO2e
-Pig Meat	7 kgCO2e
-Poultry Meat	6 kgCO2e
-Olive Oil	6 kgCO2e
-Fish (farmed)	5 kgCO2e
-Fish 5 kgCO2e
-Eggs	4.5 kgCO2e
-Rice	4 kgCO2e
-Fish (wild catch)	3 kgCO2e
-Milk	3 kgCO2e
-Cane Sugar	3 kgCO2e
-Sugar	3 kgCO2e
-Groundnuts	2.5 kgCO2e
-Wheat 1.4 kgCO2e
-Rye 1.4 kgCO2e
-Tomatoes	1.4 kgCO2e
-Maize (Corn)	1.0 kgCO2e
-Cassava	1.0 kgCO2e
-Soymilk	0.9 kgCO2e
-Peas	0.9 kgCO2e
-Bananas	0.7 kgCO2e
-Root Vegetables	0.4 kgCO2e
-Apples	0.4 kgCO2e
-Citrus Fruits	0.3 kgCO2e
-Nuts	0.3 kgCO2e
+Beef (beef herd)	60 kgCO2e	protein
+Lamb & Mutton	24 kgCO2e	protein
+Mutton 	24 kgCO2e	protein
+Cheese	21 kgCO2e	protein
+Beef (dairy herd)	21 kgCO2e	protein
+Chocolate	19 kgCO2e	carb
+Coffee	17 kgCO2e	liq
+Prawns (farmed)	12 kgCO2e	protein
+Palm Oil	8 kgCO2e	oil
+Pig Meat	7 kgCO2e	protein
+Poultry Meat	6 kgCO2e	protein
+Olive Oil	6 kgCO2e	oil
+Fish (farmed)	5 kgCO2e	protein
+Fish 	5 kgCO2e	protein
+Eggs	4.5 kgCO2e	protein
+Rice	4 kgCO2e	carb
+Fish (wild catch)	3 kgCO2e	protein
+Milk	3 kgCO2e	liq
+Cane Sugar	3 kgCO2e	carb
+Sugar	3 kgCO2e	carb
+Groundnuts	2.5 kgCO2e	fruit
+Wheat	 1.4 kgCO2e	carb
+Rye	 1.4 kgCO2e	carb
+Tomatoes	1.4 kgCO2e	fruit
+Maize (Corn)	1.0 kgCO2e	carb
+Cassava	1.0 kgCO2e	carb
+Soymilk	0.9 kgCO2e	liq
+Peas	0.9 kgCO2e	fruit
+Bananas	0.7 kgCO2e	fruit
+Root Vegetables	0.4 kgCO2e	fruit
+Apples	0.4 kgCO2e	fruit
+Citrus Fruits	0.3 kgCO2e	fruit
+Nuts	0.3 kgCO2e	nut/fat
+Lemon	0.3 kgCO2e	fruit
+Lime	0.3 kgCO2e	fruit
+Pomelo	0.3 kgCO2e	fruit
