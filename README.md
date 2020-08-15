@@ -7,7 +7,7 @@ We take a lot of things for granted in our daily lives. For example, eating (alm
 While Instagram campaigns might be temporary, we want to create a ecological-friendly initiative that would have a lasting impact. Something easy-to-use, and accessible for people of all backgrounds. We present FoodPrint, an app that incentivizes everyone to track and improve their carbon footprint. 
 
 ## What it Does
-
+<img src="https://github.com/kajoban/Foodprint/blob/master/app.jpg" width="400" height="790">
 We have developed a mobile application to help consumers live a greener and more environmentally sustainable life, by real-time data on the carbon footprint of foods they eat. We deployed an image detection API which uses neural networks to recognize foods and queries foods to get how much carbon dioxide was emitted for each portion of that food. 
 
 Users can quickly snap pictures and save the results in their carbon history, which they can view to see how their environmental impact over has changed over time. We hope that through FoodPrint, together we can start to make more sustainable choices, and do our part in saving the world.
