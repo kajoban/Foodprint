@@ -1,21 +1,35 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
+import { Container, Content } from "native-base";
+import Swiper from "react-native-swiper";
+import Camera from "./components/Camera";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Container>
+      <Content>
+        <Swiper loop={false} index={0} showsPagination={false}>
+          <View style={{ flex: 1 }}>
+            <Camera />
+          </View>
+          <View style={styles.slideDefault}>
+            <Text style={styles.text}>Table</Text>
+          </View>
+        </Swiper>
+      </Content>
+    </Container>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  slideDefault: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  text: {
+    fontSize: 30,
+    fontWeight: "bold",
   },
 });
