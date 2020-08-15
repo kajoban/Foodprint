@@ -9,13 +9,19 @@ export default function App() {
     type: Camera.Constants.Type.back,
   });
 
-  useEffect(async () => {
-    const { status } = await Permissions.askAsync(Permissions.CAMERA);
+  const [hasCameraPermission, setCameraPermission] = useState(null);
+  const [direction, setDirection] = useState(Camera.Constants.Type.back);
 
-    setCamera((prevState) => ({
-      ...prevState,
-      hasCameraPermission: status === "granted",
-    }));
+  useEffect(() => {
+    async function getCameraPermissions() {
+      const { status } = await Permissions.askAsync(Permissions.CAMERA);
+
+      setCamera((prevState) => ({
+        ...prevState,
+        hasCameraPermission: status === "granted",
+      }));
+    }
+    getCameraPermissions();
   }, []);
 
   if (camera.hasCameraPermission === null) {
