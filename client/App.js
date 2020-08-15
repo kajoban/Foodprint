@@ -1,16 +1,16 @@
-import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { Container, Content } from "native-base";
 import Swiper from "react-native-swiper";
+import Camera from "./components/Camera";
 
 export default function App() {
   return (
     <Container>
       <Content>
         <Swiper loop={false} index={0} showsPagination={false}>
-          <View style={styles.slideDefault}>
-            <Text style={styles.text}>Camera</Text>
+          <View style={{ flex: 1 }}>
+            <Camera />
           </View>
           <View style={styles.slideDefault}>
             <Text style={styles.text}>Table</Text>
