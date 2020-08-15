@@ -2,13 +2,15 @@
 
 ## Inspiration
 
-We take a lot of things for granted in our daily lives. For example, the convenience of being able to mass consume food. When was the last time you thought about the carbon footprint of baking banana bread, and the impact that would have 10 years down the road? As a generation that has been educated on the dangers of climate change since birth, it's important to consider the environmental impacts of our actions, so that we can make Earth a better place to live for the next generation.
+We take a lot of things for granted in our daily lives. For example, eating (almost) anything we can buy. When was the last time you thought about the carbon footprint of baking banana bread, and the impact that would have 10 years down the road? As a generation growing up on the dangers of climate change, we have to consider the environmental impacts of our actions, so that we can make Earth a better place to live for generations to come.
 
-While Instagram campaigns might be temporary, we want to create a ecological-friendly initiative that would have a lasting impact. Something easy-to-use, that would be accessible for people of all backgrounds. We present FoodPrint, an app that incentivizes everyone to track and improve their carbon footprint. 
+While Instagram campaigns might be temporary, we want to create a ecological-friendly initiative that would have a lasting impact. Something easy-to-use, and accessible for people of all backgrounds. We present FoodPrint, an app that incentivizes everyone to track and improve their carbon footprint. 
 
 ## What it Does
 
-We have developed a mobile application to help consumers live a greener and more environmentally sustainable life by getting real-time data on the carbon footprint of the foods they eat. We deployed an image detection API which uses neural networks to recognize foods and queries foods to get how much carbon dioxide was emitted for each portion of that food. Users can quickly snap pictures and save the results in their carbon history, which they can view to see how their environmental impact over has changed over time. We hope that through FoodPrint, together we can start to make more sustainable choices, and do our part in saving the world.
+We have developed a mobile application to help consumers live a greener and more environmentally sustainable life, by real-time data on the carbon footprint of foods they eat. We deployed an image detection API which uses neural networks to recognize foods and queries foods to get how much carbon dioxide was emitted for each portion of that food. 
+
+Users can quickly snap pictures and save the results in their carbon history, which they can view to see how their environmental impact over has changed over time. We hope that through FoodPrint, together we can start to make more sustainable choices, and do our part in saving the world.
 
 ## How we built it
 
