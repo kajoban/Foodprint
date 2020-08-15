@@ -4,34 +4,25 @@ import { Camera } from "expo-camera";
 import * as Permissions from "expo-permissions";
 
 export default function App() {
-  const [camera, setCamera] = useState({
-    hasCameraPermission: null,
-    type: Camera.Constants.Type.back,
-  });
-
   const [hasCameraPermission, setCameraPermission] = useState(null);
   const [direction, setDirection] = useState(Camera.Constants.Type.back);
 
   useEffect(() => {
     async function getCameraPermissions() {
       const { status } = await Permissions.askAsync(Permissions.CAMERA);
-
-      setCamera((prevState) => ({
-        ...prevState,
-        hasCameraPermission: status === "granted",
-      }));
+      setCameraPermission(status === "granted");
     }
     getCameraPermissions();
   }, []);
 
-  if (camera.hasCameraPermission === null) {
+  if (hasCameraPermission === null) {
     return <View />;
-  } else if (camera.hasCameraPermission === false) {
+  } else if (hasCameraPermission === false) {
     return <Text>No access to camera</Text>;
   } else {
     return (
       <View style={{ flex: 1 }}>
-        <Camera style={{ flex: 1 }} type={camera.type}>
+        <Camera style={{ flex: 1 }} type={direction}>
           <View
             style={{
               flex: 1,
@@ -46,12 +37,11 @@ export default function App() {
                 alignItems: "center",
               }}
               onPress={() => {
-                setCamera({
-                  type:
-                    camera.type === Camera.Constants.Type.back
-                      ? Camera.Constants.Type.front
-                      : Camera.Constants.Type.back,
-                });
+                setDirection(
+                  direction === Camera.Constants.Type.back
+                    ? Camera.Constants.Type.front
+                    : Camera.Constants.Type.back
+                );
               }}
             >
               <Text style={{ fontSize: 18, marginBottom: 10, color: "white" }}>
