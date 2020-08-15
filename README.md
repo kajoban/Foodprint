@@ -16,7 +16,7 @@ Users can quickly snap pictures and save the results in their carbon history, wh
 
 **Figma** - Initial UI/UX design
 
-**React-native** - Android app
+**React-native** - Android/IOS app
 
 **Google Vision API** - Object recognition 
 
@@ -43,9 +43,6 @@ Users can quickly snap pictures and save the results in their carbon history, wh
 **Image recognition issues** - With images, there's no easy way to check the portion size of an image without AI and computer vision. Ideally, we'd be able to estimate how big of a portion of food is on each person's plate. We had to use NLTK instead and did some research to guesstimate rough portion sizes. 
 
 ## What's next for Foodprint
-
-
-**IOS App** - To increase user base.
 
 **Reward System** - Partnering with sponsors to provide users with in-kind rewards or free products for keeping carbon footprint below a certain threshold.
 
